@@ -391,8 +391,9 @@ print(paste(&quot;5-minute interval with maximum number of steps on average acro
 <p>[1] “5-minute interval with maximum number of steps on average across
 all the days: 835”</p>
 </div>
-<div id="imputing-missing-values" class="section level2">
-<h2>Imputing missing values</h2>
+<div id="imputing-missing-values-using-mean-number-of-steps-in-each-time-interval" class="section level2">
+<h2>Imputing missing values using mean number of steps in each time
+interval</h2>
 <pre class="r"><code>print(paste(&quot;Total number of missing values: &quot;, sum(is.na(data$steps))))</code></pre>
 <p>[1] “Total number of missing values: 2304”</p>
 <pre class="r"><code>imputedData &lt;- data

@@ -69,7 +69,7 @@ print(paste("5-minute interval with maximum number of steps on average across al
 
 [1] "5-minute interval with maximum number of steps on average across all the days: 835"
 
-## Imputing missing values
+## Imputing missing values using mean number of steps in each time interval
 
 ```r
 print(paste("Total number of missing values: ", sum(is.na(data$steps))))
